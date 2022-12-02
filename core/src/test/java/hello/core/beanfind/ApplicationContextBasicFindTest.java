@@ -14,7 +14,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class ApplicationContextBasicFindTest {
     AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
-
     @Test
     @DisplayName("빈 이름으로 조회")
     void findBeanByName() {

@@ -40,7 +40,6 @@ public class ApplicationContextExtendsFindTest {
         RateDiscountPolicy bean = ac.getBean(RateDiscountPolicy.class);
         assertThat(bean).isInstanceOf(RateDiscountPolicy.class);
     }
-
     @Test
     @DisplayName("부모 타입으로 모두 조회하기")
     void findByBeanParentType(){

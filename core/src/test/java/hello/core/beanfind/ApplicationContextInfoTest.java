@@ -18,7 +18,6 @@ public class ApplicationContextInfoTest {
             Object bean = ac.getBean(beanDefinitionName);
             System.out.println("Name = " + beanDefinitionName + " Object = " + bean);
         }
-
     }@Test
     @DisplayName("애플리케이션 빈 출력하기")
     void findApplicationBean(){
