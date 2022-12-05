@@ -13,7 +13,6 @@ import org.springframework.context.annotation.FilterType;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class ComponentFilterAppConfigTest   {
-
     @Test
     void filterScan(){
         ApplicationContext ac = new AnnotationConfigApplicationContext(ComponentFilterAppConfig.class);

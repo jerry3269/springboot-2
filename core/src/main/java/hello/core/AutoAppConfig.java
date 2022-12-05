@@ -18,4 +18,5 @@ public class AutoAppConfig {
     public MemberRepository memberRepository(){
         return new MemoryMemberRepository();
     }*/
+
 }

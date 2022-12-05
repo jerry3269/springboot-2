@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Bean;
 import static org.junit.jupiter.api.Assertions.*;
 
 class StateFulServiceTest {
-
     @Test
     void statefulServiceSingleton(){
         ApplicationContext ac = new AnnotationConfigApplicationContext(TestConfig.class);

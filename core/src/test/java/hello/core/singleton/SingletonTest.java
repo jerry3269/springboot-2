@@ -11,7 +11,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SingletonTest {
-
     @Test
     @DisplayName("스프링 없는 순수한 DI 컨테이터")
     void pureContainer() {

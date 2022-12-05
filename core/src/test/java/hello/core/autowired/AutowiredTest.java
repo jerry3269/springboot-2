@@ -10,7 +10,6 @@ import org.springframework.lang.Nullable;
 import java.util.Optional;
 
 public class AutowiredTest {
-
     @Test
     void AutowiredOption(){
         ApplicationContext ac = new AnnotationConfigApplicationContext(TestBean.class);

@@ -10,4 +10,5 @@ import java.lang.annotation.*;
 @Documented
 @Qualifier("mainDiscountPolicy")
 public @interface MainDiscountPolicy {
+
 }

@@ -4,7 +4,6 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 public class NetworkClient {
-
     private String url;
 
     public NetworkClient() {

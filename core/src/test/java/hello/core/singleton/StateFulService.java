@@ -2,7 +2,6 @@ package hello.core.singleton;
 
 
 public class StateFulService {
-
 //    private int price; //상태를 유지하는 필드
 
     public int order(String name, int price){
